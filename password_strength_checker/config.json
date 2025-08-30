@@ -1,0 +1,9 @@
+{
+  "minimum_length": 12,
+  "max_length": 24,
+  "requires_symbol": true,
+  "requires_number": true,
+  "requires_upper": true,
+  "requires_lower": false,
+  "use_icons": true
+}
