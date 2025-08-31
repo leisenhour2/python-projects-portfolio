@@ -1,0 +1,19 @@
+{
+  "PARENT_DIR": "{dir}",
+  "Images": {
+    "FileTypes": [".jpg", ".jpeg", ".bmp", ".png", ".gif", ".dds"],
+    "Directory": "\\images\\"
+  },
+  "Text": {
+    "FileTypes": [".txt", ".doc", ".docx", ".rtf", ".pdf", ".xml"],
+    "Directory": "\\text\\"
+  },
+  "Audio": {
+    "FileTypes": [".mp3", ".wav", ".aac", ".flac", ".m4a"],
+    "Directory": "\\audio\\"
+  },
+  "Video": {
+    "FileTypes": [".mp4,", ".mov,", ".avi,", ".wmv,", ".mkv,", ".webm"],
+    "Directory": "\\video\\"
+  }
+}
