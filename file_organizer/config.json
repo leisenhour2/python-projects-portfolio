@@ -1,10 +1,11 @@
 {
-  "Image_Files": ["jpeg", "jpg", "png", "gif"],
-  "Video_Files": ["mp4", "avi", "mov"],
-  "Audio_Files": ["mp3", "wav", "ogg"],
-  "Word_Files": ["doc", "docx"],
-  "PDF_Files": ["pdf"],
-  "Spreadsheet_Files": ["xls", "xlsx", "csv"],
-  "Presentation_Files": ["ppt", "pptx"],
-  "Compressed_Files": ["zip", "rar"]
+  "Image_Files": [".jpeg", ".jpg", ".png", ".gif", ".bmp"],
+  "Video_Files": [".mp4", ".avi", ".mov"],
+  "Audio_Files": [".mp3", ".wav", ".ogg"],
+  "Word_Files": [".doc", ".docx", ".txt", ".rtf"],
+  "PDF_Files": [".pdf"],
+  "Spreadsheet_Files": [".xls", ".xlsx", ".csv"],
+  "Presentation_Files": [".ppt", ".pptx"],
+  "Compressed_Files": [".zip", ".rar"],
+  "Database_Files": [".accdb", ".mdb"]
 }

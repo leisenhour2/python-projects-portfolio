@@ -1,4 +1,3 @@
-from fileinput import filename
 from pathlib import Path
 import json, shutil
 
@@ -25,11 +24,13 @@ for key in config.keys():
 
 
 # BROKEN CODE RIGHT NOW
-# for file in INPUT.iterdir():
-#     if file.is_file():
-#         ext = file.suffix.lower()
-#         if not ext:
-#             extra = creates_folder(OUTPUT / "Extra")
-#             shutil.move(str(file), str(extra / file.name))
-#         else:
-#             shutil.move(str(file), str())
+for file in INPUT.iterdir():
+    if file.is_file():
+        ext = file.suffix.lower()
+        if not ext:
+            files = creates_folder(OUTPUT / "Files")
+            shutil.move(str(file), str(files / file.name))
+        else:
+            for key, value in config.items():
+                if ext in value:
+                    shutil.move(str(file), str(OUTPUT / key / file.name))
