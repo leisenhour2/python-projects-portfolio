@@ -1,11 +1,15 @@
 {
-  "Image_Files": [".jpeg", ".jpg", ".png", ".gif", ".bmp"],
-  "Video_Files": [".mp4", ".avi", ".mov"],
-  "Audio_Files": [".mp3", ".wav", ".ogg"],
-  "Word_Files": [".doc", ".docx", ".txt", ".rtf"],
-  "PDF_Files": [".pdf"],
-  "Spreadsheet_Files": [".xls", ".xlsx", ".csv"],
-  "Presentation_Files": [".ppt", ".pptx"],
-  "Compressed_Files": [".zip", ".rar"],
-  "Database_Files": [".accdb", ".mdb"]
+  "Input": "C:/Users/leise/Desktop/New folder",
+  "Output": "C:/Users/leise/Desktop/junk_test_out",
+  "FileTypes": {
+    "Image_Files": [".jpeg", ".jpg", ".png", ".gif", ".bmp"],
+    "Video_Files": [".mp4", ".avi", ".mov"],
+    "Audio_Files": [".mp3", ".wav", ".ogg"],
+    "Word_Files": [".doc", ".docx", ".txt", ".rtf"],
+    "PDF_Files": [".pdf"],
+    "Spreadsheet_Files": [".xls", ".xlsx", ".csv"],
+    "Presentation_Files": [".ppt", ".pptx"],
+    "Compressed_Files": [".zip", ".rar"],
+    "Database_Files": [".accdb", ".mdb"]
+  }
 }
