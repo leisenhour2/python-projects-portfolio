@@ -1,5 +1,5 @@
 {
-  "Input": "C:/Users/leise/Desktop/New folder",
+  "Input": "C:/Users/leise/Desktop/junk_test_in",
   "Output": "C:/Users/leise/Desktop/junk_test_out",
   "FileTypes": {
     "Image_Files": [".jpeg", ".jpg", ".png", ".gif", ".bmp"],
